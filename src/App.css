@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+#quote-box {
+  width: 75%;
+  height: auto;
+  min-height: 400px;
+  border-radius: 50px;
+  margin: 150px auto;
+  background: #fff;
+  font-size: 1.5em;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+
+
+#author {
+  margin-bottom: 50px;
+ }
+
+a {
+  margin: 10px;
+  border: 2px solid;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#tweet-quote {
+  text-decoration: none;
+}
+
+#tweet-quote:hover {
+  background: #007BFF;
+  color: #fff;
+}
+
+.fa-quote-left {
+  margin-bottom: 210px;
+}
